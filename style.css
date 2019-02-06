@@ -27,6 +27,12 @@ p {font-size: 16px;}
     background-color: #2f2f2f;
     color: #fff;
 }
+
+.bg-5 { 
+    background-color: #0275d8; 
+    color: #ffffff;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
