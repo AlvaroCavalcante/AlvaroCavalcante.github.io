@@ -33,6 +33,17 @@ p {font-size: 16px;}
     color: #ffffff;
 }
 
+.bg-6 { 
+    background-image: url("imagens/back.jpg");
+    background-repeat: no-repeat;
+}
+
+.container-fluid-initial {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 100vh;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
