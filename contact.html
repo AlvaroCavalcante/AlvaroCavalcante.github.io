@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="lib/icons/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/animate/animate.css">
+    <link rel="stylesheet" href="lib/owlcarousel/owl.carousel.min.css">
+    <link class="color-mode" rel="stylesheet" href="css/styles.css">
+    <link class="color-change" rel="stylesheet" href="css/blue.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!--Preloader-->
+    <div class="load-wrapp">
+        <div class="effect">
+            <p>Álvaro Leandro Cavalcante</p>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <!--.Preloader-->
+
+    <div class="header mobile">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h1>Álvaro Leandro Cavalcante</h1>
+    </div>
+    <div class="all">
+        <div class="left-content">
+            <div class="left-scroll">
+                <div class="img-avata">
+                    <img src="images/alvaro.jpeg" alt="avata">
+                </div>
+                <h4 class="title-port">Álvaro Leandro Cavalcante</h4>
+                <ul class="left-nav">
+                    <li><a href="index.html"><i class="zmdi zmdi-hc-fw"></i><span>Home</span></a></li>
+                    <li><a href="about.html"><i class="zmdi zmdi-hc-fw"></i><span>Sobre</span></a></li>
+                    <li><a href="resume.html"><i class="zmdi zmdi-hc-fw"></i><span>Currículo</span></a></li>
+                    <li><a href="portfolio.html"><i class="zmdi zmdi-hc-fw"></i><span>Portfólio</span></a></li>
+                    <li><a href="blog.html"><i class="zmdi zmdi-hc-fw"></i><span>Blog</span></a></li>
+                    <li><a href="contact.html" class="active"><i class="zmdi zmdi-hc-fw"></i><span>Contato</span></a></li>
+                </ul>
+                <div class="footer-box">
+                    <ul class="list-social">
+                        <li><a href="#"><i class="zmdi zmdi-hc-fw"></i></i></a></li>
+                        <li><a href="https://stackoverflow.com/users/8405704/alvaro-leandro-cavalcante" target="blank"><i class="zmdi zmdi-hc-fw">
+                            <i class="zmdi zmdi-stackoverflow"></i></i></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/alvaro-leandro/" target="blank"><i class="zmdi zmdi-hc-fw">
+                            <i class="zmdi zmdi-linkedin-box"></i></i></a></li>
+                        <li><a href="https://github.com/AlvaroCavalcante" target="blank"><i class="zmdi zmdi-hc-fw">
+                            <i class="zmdi zmdi-github-box"></i></i></i></a></li>
+                    </ul>
+                    <p class="foo-text">2020 © copyright<br>Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="right-wrap right-page right-about">
+                <div class="container-fruit">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="title-page">
+                                <h1>Contato</h1>
+                                <p>Vamos conversar!</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="map-box box-map">
+                                <div  id="map-canvas"></div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="section-box m-t-30">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-xl-3">
+                                        <div class="box-adress">
+                                            <h5>INFORMAÇÕES PESSOAIS</h5>
+                                            <ul class="m-t-20">
+                                                <li>Nome: Álvaro Leandro Cavalcante</li>                                  
+                                                <li>Idade: <input name="idade" id="idade" /></li>
+                                                <li>Telefone: (14) 9 9625 - 4788</li>
+                                                <li>Endereço:  Rua Pedro Palone 168, Pompeia, São Paulo, Brasil</li>
+                                                <!-- <li>Freelance: Available</li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <script>
+                                        var anoAtual = new Date
+                                        idade = anoAtual.getFullYear() - 1999
+                                        console.log(idade);
+                                        document.getElementById("idade").value = '123'
+                                    </script>
+                                    <div class="col-lg-8 col-md-8 col-xl-5">
+                                        <h2><i class="zmdi zmdi-account-box-o zmdi-hc-fw"></i> Entre em <span>contato</span></h2>
+                                        <div class="wrap-text m-t-20">
+                                            <p>Caso queira conversar comigo, mande uma mensagem.</p>
+                                        </div>
+                                        <div class="line-incontent m-t-30"></div>
+                                        <div class="m-t-30">
+                                            <div id="contact-form">
+                                                <div id="message"></div>
+                                                <form method="post" action="" name="contactform" id="contactform">
+                                                    <div class="form-group form-group-custome m-t-20">
+                                                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                                        <input name="name" type="text" id="name" class="form-control" placeholder="Nome">
+                                                    </div>
+                                                    <div class="form-group form-group-custome m-t-20">
+                                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                                        <input name="email" type="text" id="email" class="form-control" placeholder="E-mail">
+                                                    </div>
+                                                    <div class="form-group form-group-custome m-t-20">
+                                                        <textarea name="comments" id="comments" class="form-control" placeholder="Mensagem"></textarea>
+                                                    </div>
+                                                    <div class="form-group form-group-custome m-t-30">
+                                                        <button type="submit" class="btn" id="submit"><span>Enviar Mensagem </span></button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Line Bg Effect -->
+                <div class="line-bg">
+                    <div class="line-item"></div>
+                    <div class="line-item"></div>
+                    <div class="line-item"></div>
+                </div>
+                <!-- .Line Bg Effect -->
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/owlcarousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/animated-headline/animated-headline.js"></script>
+    <script type="text/javascript" src="lib/youtubebg/jquery.youtubebackground.js"></script>
+    <script type="text/javascript" src="lib/magnific/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="lib/portfolio/js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyAI9kPkskayYti5ttrZL_UfBlL3OkMEbvs"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

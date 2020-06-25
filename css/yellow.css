@@ -1,0 +1,69 @@
+.all .left-content .left-nav li a.active, .all .left-content .left-nav li a:hover {
+  color: #ffc107; }
+  .all .left-content .left-nav li a.active i, .all .left-content .left-nav li a:hover i {
+    background-color: #ffc107; }
+
+.all .left-content .footer-box .foo-text::before {
+  background-color: #ffc107; }
+
+.all .right-content .right-page .title-page h1::after {
+  background-color: #ffc107; }
+
+.all .right-content .right-page .container-fruit .section-box h2 i {
+  color: #ffc107; }
+
+.right-content .right-home .content-home h1::after {
+  background-color: #ffc107; }
+
+.right-content .right-home .content-home .cd-headline .cd-words-wrapper b {
+  color: #ffc107; }
+
+.right-about .container-fruit .box-adress h5:before {
+  background-color: #ffc107; }
+
+.right-about .container-fruit .box-col .img-box {
+  background-color: #ffc107; }
+
+.right-resume .timeline li:before {
+  border-left: 1px solid #ffc107; }
+
+.right-resume .timeline li .timeline-item .des-pos {
+  color: #ffc107; }
+
+.right-resume .list-skill:before {
+  border-left: 1px solid #ffc107; }
+
+.right-resume .list-skill .bar .bar-outer .bar-inner {
+  background: #ffc107; }
+
+.right-portfolio .portfolio-section .portfolio-filter ul li.active {
+  background-color: #ffc107; }
+
+.right-portfolio .portfolio-section .item figure:before {
+  background-color: #ffc107; }
+
+.card-post .meta-post a:hover {
+  color: #ffc107; }
+
+.card-post .content-post h2 a:hover {
+  color: #ffc107; }
+
+.card-post .read-post a:hover {
+  color: #ffc107; }
+
+.single-content .card-post .meta-post a:hover {
+  color: #ffc107; }
+
+.comment-wrap .list-comments .item-comment .wrap-comment .reply-comment a:hover {
+  color: #ffc107; }
+
+.comment-wrap .list-comments .sub-comment {
+  border-left: 1px solid rgba(255, 193, 7, 0.1); }
+
+.loading-more a:hover {
+  border: 1px solid #ffc107;
+  color: #ffc107; }
+
+.form-group-custome button:hover {
+  border: 1px solid #ffc107;
+  color: #ffc107; }

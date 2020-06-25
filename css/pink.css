@@ -1,0 +1,69 @@
+.all .left-content .left-nav li a.active, .all .left-content .left-nav li a:hover {
+  color: #e83e8c; }
+  .all .left-content .left-nav li a.active i, .all .left-content .left-nav li a:hover i {
+    background-color: #e83e8c; }
+
+.all .left-content .footer-box .foo-text::before {
+  background-color: #e83e8c; }
+
+.all .right-content .right-page .title-page h1::after {
+  background-color: #e83e8c; }
+
+.all .right-content .right-page .container-fruit .section-box h2 i {
+  color: #e83e8c; }
+
+.right-content .right-home .content-home h1::after {
+  background-color: #e83e8c; }
+
+.right-content .right-home .content-home .cd-headline .cd-words-wrapper b {
+  color: #e83e8c; }
+
+.right-about .container-fruit .box-adress h5:before {
+  background-color: #e83e8c; }
+
+.right-about .container-fruit .box-col .img-box {
+  background-color: #e83e8c; }
+
+.right-resume .timeline li:before {
+  border-left: 1px solid #e83e8c; }
+
+.right-resume .timeline li .timeline-item .des-pos {
+  color: #e83e8c; }
+
+.right-resume .list-skill:before {
+  border-left: 1px solid #e83e8c; }
+
+.right-resume .list-skill .bar .bar-outer .bar-inner {
+  background: #e83e8c; }
+
+.right-portfolio .portfolio-section .portfolio-filter ul li.active {
+  background-color: #e83e8c; }
+
+.right-portfolio .portfolio-section .item figure:before {
+  background-color: #e83e8c; }
+
+.card-post .meta-post a:hover {
+  color: #e83e8c; }
+
+.card-post .content-post h2 a:hover {
+  color: #e83e8c; }
+
+.card-post .read-post a:hover {
+  color: #e83e8c; }
+
+.single-content .card-post .meta-post a:hover {
+  color: #e83e8c; }
+
+.comment-wrap .list-comments .item-comment .wrap-comment .reply-comment a:hover {
+  color: #e83e8c; }
+
+.comment-wrap .list-comments .sub-comment {
+  border-left: 1px solid rgba(232, 62, 140, 0.1); }
+
+.loading-more a:hover {
+  border: 1px solid #e83e8c;
+  color: #e83e8c; }
+
+.form-group-custome button:hover {
+  border: 1px solid #e83e8c;
+  color: #e83e8c; }

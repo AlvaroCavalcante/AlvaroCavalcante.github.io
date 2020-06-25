@@ -1,0 +1,12 @@
+{
+	"dependencies": {
+		"node-sass": "^4.7.2"
+	},
+	"scripts": {
+		"scss": "node-sass --watch scss -o css"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-sass": "^4.0.2"
+	}
+}
