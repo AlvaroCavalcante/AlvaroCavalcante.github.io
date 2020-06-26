@@ -103,6 +103,7 @@ $(window).on('scroll', function() {
                 cache: false,
                 headers: {"cache-control": "no-cache"},
                 url: link,
+                crossDomain: true,
                 beforeSend: function() {
                     $ajaxContainer.find('.ajax-loader').show();
                 },
