@@ -220,7 +220,7 @@ $(window).on('scroll', function() {
     /* My Skill Animation*/
     var proSkills = {
         ht: 60,
-        js: 75,
+        ja: 75,
         sq: 65,
         node: 80,
         ia: 90
