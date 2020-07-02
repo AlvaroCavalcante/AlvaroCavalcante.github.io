@@ -219,18 +219,18 @@ $(window).on('scroll', function() {
 
     /* My Skill Animation*/
     var proSkills = {
-        ht: 75,
-        jq: 25,
-        sk: 90,
-        ph: 75,
-        il: 90
+        ht: 60,
+        js: 75,
+        sq: 65,
+        node: 80,
+        ia: 90
     };
     var perSkills = {
-        tw: 85,
-        cm: 55,
+        tw: 90,
+        cm: 85,
         cr: 60,
-        or: 75,
-        enl: 70
+        or: 80,
+        enl: 75
     };
 
     function mySkillsAnimaiton(skills) {

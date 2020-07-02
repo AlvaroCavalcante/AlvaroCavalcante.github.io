@@ -740,40 +740,44 @@ button:focus {
           position: absolute;
           top: 100%;
           left: 50%; }
-      .right-resume .list-skill .bar .bar-outer .html, .right-resume .list-skill .bar .bar-outer .photo {
+      .right-resume .list-skill .bar .bar-outer .html {
+        left: calc(60% - 1.5em); }
+      .right-resume .list-skill .bar .bar-outer .javascript {
         left: calc(75% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .jquery {
-        left: calc(25% - 1.5em); }
-      .right-resume .list-skill .bar .bar-outer .sketch, .right-resume .list-skill .bar .bar-outer .illustrator {
+      .right-resume .list-skill .bar .bar-outer .nodejs {
+        left: calc(80% - 1.5em); }
+      .right-resume .list-skill .bar .bar-outer .sql {
+        left: calc(65% - 1.5em); }
+      .right-resume .list-skill .bar .bar-outer .ml {
         left: calc(90% - 1.5em); }
       .right-resume .list-skill .bar .bar-outer .indesign {
         left: calc(85% - 1.5em); }
       .right-resume .list-skill .bar .bar-outer .teamwork {
-        left: calc(85% - 1.5em); }
+        left: calc(90% - 1.5em); }
       .right-resume .list-skill .bar .bar-outer .comunication {
-        left: calc(55% - 1.5em); }
+        left: calc(85% - 1.5em); }
       .right-resume .list-skill .bar .bar-outer .creative {
         left: calc(60% - 1.5em); }
       .right-resume .list-skill .bar .bar-outer .oranisation {
-        left: calc(75% - 1.5em); }
+        left: calc(80% - 1.5em); }
       .right-resume .list-skill .bar .bar-outer .english {
-        left: calc(70% - 1.5em); }
+        left: calc(75% - 1.5em); }
       .right-resume .list-skill .bar .bar-outer .html,
-      .right-resume .list-skill .bar .bar-outer .jquery,
-      .right-resume .list-skill .bar .bar-outer .sketch,
-      .right-resume .list-skill .bar .bar-outer .photo,
-      .right-resume .list-skill .bar .bar-outer .illustrator,
+      .right-resume .list-skill .bar .bar-outer .nodejs,
+      .right-resume .list-skill .bar .bar-outer .sql,
+      .right-resume .list-skill .bar .bar-outer .ml,
+      .right-resume .list-skill .bar .bar-outer .javascript,
       .right-resume .list-skill .bar .bar-outer .teamwork,
       .right-resume .list-skill .bar .bar-outer .comunication,
       .right-resume .list-skill .bar .bar-outer .creative,
       .right-resume .list-skill .bar .bar-outer .oranisation,
       .right-resume .list-skill .bar .bar-outer .english {
         background: #ffffff; }
+        .right-resume .list-skill .bar .bar-outer .javascript:after,
         .right-resume .list-skill .bar .bar-outer .html:after,
-        .right-resume .list-skill .bar .bar-outer .jquery:after,
-        .right-resume .list-skill .bar .bar-outer .sketch:after,
-        .right-resume .list-skill .bar .bar-outer .photo:after,
-        .right-resume .list-skill .bar .bar-outer .illustrator:after,
+        .right-resume .list-skill .bar .bar-outer .nodejs:after,
+        .right-resume .list-skill .bar .bar-outer .sql:after,
+        .right-resume .list-skill .bar .bar-outer .ml:after,
         .right-resume .list-skill .bar .bar-outer .teamwork:after,
         .right-resume .list-skill .bar .bar-outer .comunication:after,
         .right-resume .list-skill .bar .bar-outer .creative:after,
