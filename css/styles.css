@@ -785,6 +785,18 @@ button:focus {
         .right-resume .list-skill .bar .bar-outer .english:after {
           border-top-color: #ffffff; }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
 /*-------------------
 9. PORTFOLIO PAGE
 ---------------------*/
