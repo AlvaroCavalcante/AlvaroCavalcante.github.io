@@ -16,7 +16,7 @@
     <link class="color-change" rel="stylesheet" href="css/blue.css">
     <script src="https://kit.fontawesome.com/bbe98df1ca.js" crossorigin="anonymous"></script>
 
-    <title>Sistema odontológico</title>
+    <title>Coffee Recognition</title>
 </head>
 
 <body>
@@ -100,22 +100,28 @@
                                                     class="active"></li>
                                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                                             </ol>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img class="d-block w-100"
-                                                        src="images/odontograma.png"
+                                                        src="images/coffee1.jpg"
                                                         alt="First slide">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100"
-                                                        src="images/prontuario.png"
+                                                        src="images/coffee2.jpg"
                                                         alt="Second slide">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100"
-                                                        src="images/login.png"
+                                                        src="images/coffee3.jpg"
                                                         alt="Third slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100"
+                                                        src="images/coffee4.jpg"
+                                                        alt="Fourth slide">
                                                 </div>
                                             </div>
                                             <a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -129,20 +135,18 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
-                                        <!-- <img class="image-responsive"
-                                            src="https://source.unsplash.com/R-wQExeiGrc/1920x850" alt="img01" /> -->
                                     </div>
                                     <div class="meta-post">
                                         <!-- <span>January 22, 2018</span> - <a href="#">Logos</a> -->
                                     </div>
                                     <div class="content-post">
-                                        <h1>Linha de cuidado odontológica - Sistema WEB</h1>
+                                        <h1>Detecção de Ferrugem e Bicho Mineiro na folha do Café</h1>
                                         <div class="line-incontent m-t-20"></div>
                                         <div class="content-wrap m-t-30">
-                                            <p>A Linha de cuidado odontológica é um software que visa mudar a forma como os tratamentos odontológicos
-                                                acontecem, com foco total no paciente e em suas necessidades. As funcionalidades suportam o paciente de ponta a 
-                                                ponta, desde o seu diagnóstico até o plano de tratamento. O mesmo acontece com o profissional de saúde, facilitando
-                                                sua vida na realização e aprovação de procedimentos por parte da operadora.
+                                            <p>Esse foi um trabalho de conclusão de curso (TCC) do curso de Big Data no Agronegócio pela FATEC. Foram coletados mais
+                                                de 500 folhas de café contendo as fitopatologias da ferrugem e/ou bicho mineiro. A partir daí, foi criado um algoritmo de 
+                                                inteligência artificial baseado em <b>redes neurais convolucionais</b> para detectar os objetos na imagem. Além disso, um aplicativo - Coffee Recognize -
+                                                também foi desenvolvido para servir de interface.
                                             </p>
                                         </div>
                                     </div>
@@ -161,18 +165,31 @@
                                                 <i class="zmdi zmdi-hc-fw"></i>
                                             </div>
                                             <h3 class="m-t-30">Empresa</h3>
-                                            <div class="wrap-text m-t-20">Sistema desenvolvido para a 
-                                                <a href="https://www.dennisnakamura.com/nktech/" style="color:#e2e2e2;" target="blank"> <h6 class="mt-1">NK Tech</h6></a>
+                                            <div class="wrap-text m-t-20">Trabalho de conclusão de curso na 
+                                                <a href="https://sites.google.com/fatecpompeia.edu.br/new/home" style="color:#e2e2e2;" target="blank"> <h6 class="mt-1">FATEC Shunji Nishimura</h6></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-6">
                                         <div class="box-col">
                                             <div class="img-box">
-                                                <i class="zmdi zmdi-lock"></i>
+                                                <i class="zmdi zmdi-lock-open"></i>
                                             </div>
-                                            <h3 class="m-t-30">Não Open Source</h3>
-                                            <div class="wrap-text m-t-20">Esse <b> NÃO </b> é um projeto de código aberto, por isso seus detalhes foram omitidos para segurança da empresa.</div>
+                                            <h3 class="m-t-30">Open Source</h3>
+                                            <div class="wrap-text m-t-20">Esse projeto é Open Source, visite o 
+                                                <b><a href="https://github.com/AlvaroCavalcante/Coffee_Recognize_API" style="color:#e2e2e2;" target="blank"> 
+                                                GitHub </a></b> e contribua!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6">
+                                        <div class="box-col">
+                                            <div class="img-box">
+                                                <i class="zmdi zmdi-badge-check"></i>
+                                            </div>
+                                            <h3 class="m-t-30">Resultados Finais</h3>
+                                            <div class="wrap-text m-t-20">O modelo atingiu <b>83,5%</b> de precisão média (mAP)</div>
                                         </div>
                                     </div>
                                
@@ -190,15 +207,30 @@
                                             <div class="testi">
                                                 <div class="avata-2">
                                                     <div class="img-avata">
-                                                        <img src="images/ang.png" alt="avata-2">
+                                                        <img src="images/tensor.png" alt="avata-2">
                                                     </div>
                                                 </div>
-                                                <a href="https://angular.io/"
+                                                <a href="https://www.tensorflow.org/"
                                                     style="color:#e2e2e2;" target="blank">
-                                                    <h5 class="m-t-30">Angular</h5>
+                                                    <h5 class="m-t-30">TensorFlow</h5>
                                                 </a>
-                                                <div class="wrap-text m-t-20">Angular é um framework robusto desenvolvido pela Google para criação de sistemas multiplataforma. <br>
-                                                    Possui como linguagem base o <b> Typescript </b> e também permite a manipulação do <b> HTML e CSS </b> para o front-end.
+                                                <div class="wrap-text m-t-20">Plataforma utilizada para a criação de toda a arquitetura de detecção de objetos e treinamento do modelo de IA.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="testi">
+                                                <div class="avata-2">
+                                                    <div class="img-avata">
+                                                        <img src="images/ionic2.png" alt="avata-2">
+                                                    </div>
+                                                </div>
+                                                <a href="https://ionicframework.com/"
+                                                    style="color:#e2e2e2;" target="blank">
+                                                    <h5 class="m-t-30">Ionic</h5>
+                                                </a>
+                                                <div class="wrap-text m-t-20">Ionic é um framework para criação de aplicativos híbridos. Possui como linguagem base o <b> Typescript </b>
+                                                    <br> e também permite a manipulação do <b> HTML e CSS </b> para o front-end além de componentes próprios para acessar recursos do smartphone.
                                                 </div>
                                             </div>
                                         </div>
@@ -220,34 +252,6 @@
                                             <div class="testi">
                                                 <div class="avata-2">
                                                     <div class="img-avata">
-                                                        <img src="images/sql.png" alt="avata-2">
-                                                    </div>
-                                                </div>
-                                                <a href="https://www.mysql.com/"
-                                                    style="color:#e2e2e2;" target="blank">
-                                                    <h5 class="m-t-30">MySQL</h5>
-                                                </a>
-                                                <div class="wrap-text m-t-20">MySQL é o sistema gerenciador de banco de dados desse projeto, baseado na linguagem <b>SQL.</b></div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="testi">
-                                                <div class="avata-2">
-                                                    <div class="img-avata">
-                                                        <img src="images/docker.png" alt="avata-2">
-                                                    </div>
-                                                </div>
-                                                <a href="https://www.docker.com/"
-                                                    style="color:#e2e2e2;" target="blank">
-                                                    <h5 class="m-t-30">Docker</h5>
-                                                </a>
-                                                <div class="wrap-text m-t-20">Orquestração de containers para o desenvolvimento do software.</div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="testi">
-                                                <div class="avata-2">
-                                                    <div class="img-avata">
                                                         <img src="images/python.png" alt="avata-2">
                                                     </div>
                                                 </div>
@@ -255,7 +259,7 @@
                                                     style="color:#e2e2e2;" target="blank">
                                                     <h5 class="m-t-30">Python</h5>
                                                 </a>
-                                                <div class="wrap-text m-t-20">Linguagem de programação utilizada para criação de serviços internos.</div>
+                                                <div class="wrap-text m-t-20">Linguagem de programação utilizada para criação da pipeline de treinamento de inferência do modelo.</div>
                                             </div>
                                         </div>
                                     </div>
