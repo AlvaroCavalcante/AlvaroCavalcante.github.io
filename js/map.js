@@ -17,7 +17,7 @@ $("#map-canvas").gmap3({
         action: "init",
         marker: {
             values: [ {
-                latLng: [ -22.108177, -50.169587 ],
+                latLng: [ -23.010970, -47.117829 ],
                 data: "Trabalho",
                 options: {
                     icon: "images/marker.png"
