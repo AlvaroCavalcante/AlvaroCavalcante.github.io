@@ -1,0 +1,16 @@
+{
+  "portfolio": "Portfólio",
+  "work_done": "Trabalhos Realizados",
+  "all": "Tudo",
+  "software": "Software",
+  "data_science": "Ciência de Dados",
+  "napkinn_health": "Napkinn Health",
+  "coffee_disease_detection": "Detecção de Doenças do Café",
+  "libras_recognition": "Reconhecimento de LIBRAS",
+  "bi_platform": "Plataforma de BI",
+  "product_classification": "Classificação de Produtos",
+  "supermarket_product_detection": "Detecção de Produtos de Supermercado",
+  "dental_system": "Sistema Odontológico",
+  "disc_system": "Sistema DISC",
+  "tsoda": "TensorFlow - Arquitetura de Detecção de Objetos Semi-Supervisionada"
+}
