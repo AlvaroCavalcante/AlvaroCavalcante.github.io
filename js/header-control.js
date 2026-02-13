@@ -16,6 +16,24 @@ $(function () {
         } else if (currentPageURL.includes("aulas.html")) {
             $("#link-aulas").addClass("active");
         }
+
+        // Add event listener to language toggle button to switch languages
+        $('#language-toggle').on('click', function() {
+            var newLang = i18next.language === 'en' ? 'pt' : 'en';
+            i18next.changeLanguage(newLang, function(err, t) {
+                if (err) return console.error(err);
+                localStorage.setItem('language', newLang);
+                updateContent();
+            });
+        });
+
+        // Function to update the active language in the header based on selected language
+        function updateContent() {
+            $('[data-i18n]').each(function() {
+                var key = $(this).data('i18n');
+                $(this).text(i18next.t(key));
+            });
+        }
     });
 
     $("#footer").load("footer.html");

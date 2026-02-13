@@ -33,6 +33,39 @@ $(window).on('load', function() {
             });
         });
     }
+
+    // Initialize i18next
+    i18next.init({
+        lng: localStorage.getItem('language') || (navigator.languages && navigator.languages[0]) || navigator.language || 'en',
+        fallbackLng: 'en',
+        debug: true,
+        backend: {
+            loadPath: 'locales/{{lng}}/{{ns}}.json'
+        }
+    }, function(err, t) {
+        // Initialize jquery-i18next
+        jqueryI18next.init(i18next, $);
+        // Update content
+        updateContent();
+    });
+
+    // Language toggle button event listener
+    $('#language-toggle').on('click', function() {
+        var newLang = i18next.language === 'en' ? 'pt' : 'en';
+        i18next.changeLanguage(newLang, function(err, t) {
+            if (err) return console.error(err);
+            localStorage.setItem('language', newLang);
+            updateContent();
+        });
+    });
+
+    // Function to update content
+    function updateContent() {
+        $('[data-i18n]').each(function() {
+            var key = $(this).data('i18n');
+            $(this).text(i18next.t(key));
+        });
+    }
 });
 
 $(window).on('scroll', function() {
